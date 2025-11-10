@@ -2,7 +2,7 @@ const http = require('http');
 const app = require('./server');
 
 const port = process.env.PORT || 3000;
-const host = process.env.HOST || '172.28.16.1';
+const host = process.env.HOST || '172.24.240.1';
 
 app.set('port', port);
 
